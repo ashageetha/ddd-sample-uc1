@@ -7,8 +7,14 @@ public class Product {
         this.name = name;
     }
 
-    @Override
-    public String toString() {
+    public String getName() {
         return name;
+    }
+
+    @java.lang.Override
+    public java.lang.String toString() {
+        return "Product{" +
+                "name='" + name + '\'' +
+                '}';
     }
 }

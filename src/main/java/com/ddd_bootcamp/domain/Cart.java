@@ -14,8 +14,10 @@ public class Cart {
         return products;
     }
 
-    @Override
-    public String toString() {
-        return products.toString();
+    @java.lang.Override
+    public java.lang.String toString() {
+        return "Cart{" +
+                "products=" + products +
+                '}';
     }
 }
