@@ -11,8 +11,10 @@ public class Application {
         Product product = new Product("Apple Pencil");
         cart.add(product);
 
+        System.out.println("--------------------------------------------------------");
         System.out.println("Cart = " + cart);
         List<Product> products = cart.getProducts();
+        System.out.println("--------------------------------------------------------");
         System.out.println("products = " + products);
     }
 }
